@@ -9,7 +9,7 @@ format-test:
   script:
   - go fmt
   - go vet
-  - go test
+  - go test -cover
 
 deploy:
   image: google/cloud-sdk:193.0.0

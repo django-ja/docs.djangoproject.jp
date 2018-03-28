@@ -1,6 +1,7 @@
 # docs.djangoproject.jp
 
 [![pipeline status](https://gitlab.com/tnir/docs.djangoproject.jp/badges/master/pipeline.svg)](https://gitlab.com/tnir/docs.djangoproject.jp/commits/master)
+[![coverage report](https://gitlab.com/tnir/docs.djangoproject.jp/badges/master/coverage.svg)](https://gitlab.com/tnir/docs.djangoproject.jp/commits/master)
 
 Mirror from: https://gitlab.com/tnir/docs.djangoproject.jp
 
