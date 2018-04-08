@@ -31,6 +31,7 @@ func TestMapUrlMigration(t *testing.T) {
 		"/en/latest/internals/documentation.html":            "https://docs.djangoproject.com/ja/2.0/internals/contributing/writing-documentation/",
 		"/en/latest/obsolete/":                               "https://docs.djangoproject.com/ja/2.0/internals/deprecation/",
 		"/en/latest/obsolete/admin-css.html":                 "https://docs.djangoproject.com/ja/2.0/internals/deprecation/",
+		"/en/latest/ref/authbackends.html":                   "https://docs.djangoproject.com/ja/2.0/topics/auth/customizing/#authentication-backends",
 		"/en/latest/ref/contrib/comments/":                   "https://docs.djangoproject.com/ja/2.0/releases/1.8/#features-removed-in-1-8",
 		"/en/latest/ref/contrib/comments/custom.html":        "https://docs.djangoproject.com/ja/2.0/releases/1.8/#features-removed-in-1-8",
 		"/en/latest/ref/contrib/csrf.html":                   "https://docs.djangoproject.com/ja/2.0/ref/csrf/",
