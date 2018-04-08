@@ -22,6 +22,7 @@ func migrateUrl(s string) string {
 		`internals/committers/`:       "internals/organization/#prerogatives",
 		`internals/documentation/`:    "internals/contributing/writing-documentation/",
 		`obsolete/.*`:                 "internals/deprecation/",
+		`ref/authbackends/`:           "topics/auth/customizing/#authentication-backends",
 		`ref/contrib/comments/.*`:     "releases/1.8/#features-removed-in-1-8",
 		`ref/contrib/csrf/`:           "ref/csrf/",
 		`ref/contrib/databrowse/`:     "releases/1.4/#django-contrib-databrowse",
