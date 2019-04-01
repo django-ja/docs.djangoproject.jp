@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	base      = "https://docs.djangoproject.com/ja/2.1/"
+	base      = "https://docs.djangoproject.com/ja/2.2/"
 	prefix    = "/en/latest/"
 	suffix    = ".html"
 	srcPrefix = "_sources/"
