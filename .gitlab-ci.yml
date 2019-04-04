@@ -12,7 +12,7 @@ format-test:
   - go test -cover
 
 deploy:
-  image: google/cloud-sdk:193.0.0
+  image: google/cloud-sdk:241.0.0
   stage: deploy
   script:
   - gcloud app deploy --no-promote
