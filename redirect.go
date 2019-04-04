@@ -1,4 +1,4 @@
-package redirect
+package main
 
 import (
 	"net/http"
@@ -73,6 +73,6 @@ func redirect(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, s, 301)
 }
 
-func init() {
+func main() {
 	http.HandleFunc("/", redirect)
 }
