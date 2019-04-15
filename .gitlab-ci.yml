@@ -10,7 +10,12 @@ format-test:
   - export CGO_ENABLED=0
   - go fmt
   - go vet
-  - go test -cover
+  - go test -cover -coverprofile cover.out ./...
+  - go tool cover -html=cover.out -o cover.html
+  artifacts:
+    paths:
+      - cover.html
+    expire_in: 3 days
 
 deploy:
   image: google/cloud-sdk:241.0.0
