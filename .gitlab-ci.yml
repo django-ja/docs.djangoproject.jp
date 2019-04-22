@@ -17,6 +17,19 @@ format-test:
       - cover.html
     expire_in: 3 days
 
+pages:
+  stage: deploy
+  script:
+  - mkdir -p public/coverage
+  - mv cover.html public/coverage/index.html
+  dependencies:
+    - format-test
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
 deploy:
   image: google/cloud-sdk:241.0.0
   stage: deploy
