@@ -33,6 +33,8 @@ pages:
 deploy:
   image: google/cloud-sdk:297.0.1
   stage: deploy
+  before_script:
+  - echo ${GCLOUD_ACCOUNT} | base64 --decode | gcloud auth activate-service-account --key-file=-
   script:
   - gcloud app deploy --no-promote
   when: manual
